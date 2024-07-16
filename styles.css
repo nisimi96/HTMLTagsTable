@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    background-image: url(/rss/zGR9G.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    background-image: url(/rss/zGR9G.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    
+}
+
+.header h1 {
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 36px;
+    color: #333;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    background-image: url(/rss/zGR9G.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.header P {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: large;
+    background-image: url(/rss/zGR9G.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.header ul li a:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+#header {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+caption {
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+    background-image: url(/rss/zGR9G.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+caption:hover {
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+}
+
+
+
+.table {
+    margin: 0 auto;
+    padding: 20px;
+    
+    text-align: center;
+    
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+
+.table th,
+.table td {
+    padding: 10px;
+    font-size: large;
+}
+
+.table th {
+    background-color: #ddd;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#table {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#table :hover {
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.contact {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+   
+}
+
+
+
+.contact p {
+    margin: 0;
+    padding: 10px;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    position: fixed-end;
+    z-index: 999;
+    
+}
+
+footer:hover {
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
